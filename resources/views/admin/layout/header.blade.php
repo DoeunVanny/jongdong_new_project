@@ -30,7 +30,7 @@
                 </button>
                 <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown"
                     data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img style="object-fit: cover;" class="rounded-circle header-profile-user" src="{{ (!empty($adminData->profile_image))? url('upload/admin_images/'.$adminData->profile_image): url('no_image.jpg') }}"
+                    <img style="object-fit: cover;" class="rounded-circle header-profile-user" src="{{ asset('assets/image/images.png') }}"
                         alt="Header Avatar">
                     <span class="d-none d-xl-inline-block ms-1">{{ Auth::user()->name }}</span>
                     <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
